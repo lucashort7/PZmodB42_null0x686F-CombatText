@@ -1,6 +1,6 @@
 local combat_text = {}
-local cfg = require("hortWiz_CombatText/cfg")
-local log = require("hortWiz_CombatText/log")
+local cfg = require("null0x686F_CombatText/cfg")
+local log = require("null0x686F_CombatText/log")
 
 local _string_format = string.format
 local _table_insert = table.insert

@@ -1,5 +1,6 @@
-name=hortWiz_CombatText
+name=null0x686F_CombatText
 poster=poster.png
-id=hortWiz_CombatText
+id=null0x686F_CombatText
 description=Standalone Combat HUD & Floating Text Mod for Project Zomboid (B42).
-require=hortWiz_Core
+require=null0x686F_CoreLib
+modversion=0.1.0

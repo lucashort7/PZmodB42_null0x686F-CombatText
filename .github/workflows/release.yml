@@ -1,4 +1,4 @@
-name: Release HortWiz Combat Text
+name: Release null0x686F Combat Text
 
 on:
   push:
@@ -16,10 +16,10 @@ jobs:
       - name: Zip Mod Folder
         run: |
           mkdir release_build
-          zip -r release_build/HortWiz_CombatText.zip Contents/
+          zip -r release_build/null0x686F_CombatText.zip Contents/
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          files: release_build/HortWiz_CombatText.zip
+          files: release_build/null0x686F_CombatText.zip
           generate_release_notes: true

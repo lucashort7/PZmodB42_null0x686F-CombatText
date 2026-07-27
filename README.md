@@ -1,23 +1,20 @@
-# HortWiz Combat Text
+# null0x686F CombatText
 
 ![Project Zomboid](https://img.shields.io/badge/Project%20Zomboid-B42-blue)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Performance](https://img.shields.io/badge/Performance-O(1)-brightgreen)
 
-Números de dano flutuantes e HUD de combate, standalone, para Project Zomboid Build 42.
+Floating damage numbers and combat HUD for Project Zomboid Build 42.
 
-## Requer
-- **HortWiz Core** (dependência obrigatória — logger e utilitários compartilhados).
+## Requires
+- **null0x686F CoreLib** (hard dependency).
 
 ## Features
-- Números de dano (brancos para normais, vermelhos com `!` para críticos/backstabs) flutuando sobre os personagens atingidos em `OnWeaponHitCharacter`.
-- Zero-GC allocations no loop de renderização (`OnPostRender`).
+- Floating damage numbers on `OnWeaponHitCharacter`, red with `!` for critical hits/backstabs.
+- Zero-GC render loop (`OnPostRender`).
 
-## Instalação (Manual)
-1. Baixe o último `.zip` da aba [Releases](../../releases).
-2. Extraia a pasta `hortWiz_CombatText` dentro de `C:\Users\SEU_USUARIO\Zomboid\mods\`.
-3. Instale também o **HortWiz Core** (dependência).
-4. Ative os dois mods no menu principal do jogo.
-
-## Contribuição
-Leia o [CONTRIBUTING.md](CONTRIBUTING.md) antes de enviar Pull Requests. Nós levamos a performance MUITO a sério. Qualquer código com *Vibe Coding* (loops desnecessários no render) será rejeitado.
+## Installation (Manual)
+1. Download the latest `.zip` from [Releases](../../releases).
+2. Extract the `null0x686F_CombatText` folder into `C:\Users\YOUR_USER\Zomboid\mods\`.
+3. Install **null0x686F CoreLib** too.
+4. Enable both mods in the main menu.

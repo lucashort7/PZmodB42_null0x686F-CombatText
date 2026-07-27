@@ -1,4 +1,4 @@
-# HortWiz Combat Text (Standalone)
+# null0x686F Combat Text (Standalone)
 
 High-performance $O(1)$ floating damage numbers, hit markers, and critical hit indicators for Project Zomboid Build 42.
 
