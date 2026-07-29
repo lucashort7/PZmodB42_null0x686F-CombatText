@@ -1,6 +1,7 @@
-name=null0x686F_CombatText
+name=[null0x686F] CombatText
 poster=poster.png
 id=null0x686F_CombatText
 description=Standalone Combat HUD & Floating Text Mod for Project Zomboid (B42).
 require=null0x686F_CoreLib
+versionMin=42.0
 modversion=0.1.0
